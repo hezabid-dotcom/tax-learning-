@@ -1,0 +1,620 @@
+{
+  "user": {
+    "id": "usr-default",
+    "name": "Revalina",
+    "studentStatus": "Mahasiswa D3 Perpajakan",
+    "semester": "Semester 4",
+    "targetGoal": "Membangun Legal Reasoning & Lolos Ujian Brevet AB",
+    "dailyStudyMinutes": 30,
+    "selfAssessedLevel": "Menengah",
+    "isOnboarded": true,
+    "currentLevel": 1,
+    "xp": 475,
+    "streak": 3,
+    "lastActiveDate": "2026-10-02",
+    "accuracyRate": 25,
+    "casesSolved": 3,
+    "rulesMastered": 8,
+    "weakTopics": [
+      "Konsep (25%)",
+      "Analisis Regulasi (29%)",
+      "Perhitungan (25%)",
+      "Case Study (0%)",
+      "Sengketa (0%)"
+    ],
+    "totalStudyTimeMinutes": 255,
+    "achievements": [
+      {
+        "id": "ach-first-step",
+        "name": "Langkah Pertama",
+        "desc": "Selesaikan Diagnostic Test awal untuk memetakan kemampuan Anda.",
+        "icon": "CheckCircle",
+        "unlockedAt": "2026-10-02T12:18:26.288Z"
+      },
+      {
+        "id": "ach-first-case",
+        "name": "First Case Solved",
+        "desc": "Selesaikan analisis kasus IRAC pertama Anda dengan penilaian AI.",
+        "icon": "Briefcase",
+        "unlockedAt": "2026-10-02T12:18:34.576Z"
+      },
+      {
+        "id": "ach-10-cases",
+        "name": "10 Cases Mastered",
+        "desc": "Selesaikan 10 studi kasus perpajakan nyata.",
+        "icon": "Award"
+      },
+      {
+        "id": "ach-rule-master",
+        "name": "Rule Master",
+        "desc": "Kuasai 7 dimensi pembacaan regulasi pada Level 2.",
+        "icon": "BookOpen"
+      },
+      {
+        "id": "ach-calc-master",
+        "name": "Calculation Virtuoso",
+        "desc": "Selesaikan 5 simulasi penghitungan PPh & PPN tanpa celah.",
+        "icon": "Calculator"
+      },
+      {
+        "id": "ach-streak-7",
+        "name": "7-Day Discipline",
+        "desc": "Pertahankan streak belajar berturut-turut selama 7 hari.",
+        "icon": "Flame"
+      },
+      {
+        "id": "ach-dispute-advocate",
+        "name": "Tax Litigator",
+        "desc": "Menangkan babak bantahan pada simulasi sengketa pajak Level 6.",
+        "icon": "Scale"
+      },
+      {
+        "id": "ach-tax-master",
+        "name": "Tax Strategist",
+        "desc": "Tuntaskan Level 7 Capstone Exam dengan skor di atas 85.",
+        "icon": "Crown"
+      }
+    ]
+  },
+  "diagnosticCompleted": true,
+  "levels": [
+    {
+      "levelNumber": 1,
+      "unlocked": true,
+      "completed": false,
+      "bestScore": 85,
+      "attempts": 2
+    },
+    {
+      "levelNumber": 2,
+      "unlocked": true,
+      "completed": false,
+      "bestScore": 0,
+      "attempts": 0
+    },
+    {
+      "levelNumber": 3,
+      "unlocked": false,
+      "completed": false,
+      "bestScore": 0,
+      "attempts": 0
+    },
+    {
+      "levelNumber": 4,
+      "unlocked": false,
+      "completed": false,
+      "bestScore": 0,
+      "attempts": 0
+    },
+    {
+      "levelNumber": 5,
+      "unlocked": false,
+      "completed": false,
+      "bestScore": 0,
+      "attempts": 0
+    },
+    {
+      "levelNumber": 6,
+      "unlocked": false,
+      "completed": false,
+      "bestScore": 0,
+      "attempts": 0
+    },
+    {
+      "levelNumber": 7,
+      "unlocked": false,
+      "completed": false,
+      "bestScore": 0,
+      "attempts": 0
+    }
+  ],
+  "mistakeBank": [
+    {
+      "id": "mstk-1",
+      "timestamp": "2026-10-02T12:18:26.288Z",
+      "topic": "PPh 21 TER PMK 168/2023",
+      "concept": "Pemotongan Masa Pajak Terakhir (Desember)",
+      "mistakeDescription": "Menggunakan tarif TER bulanan untuk menghitung pemotongan bulan Desember.",
+      "userGivenAnswer": "Gaji Desember x TER Kategori A (5%)",
+      "correctExplanation": "Masa pajak terakhir (Desember) TIDAK menggunakan TER, melainkan dihitung setahun menggunakan tarif progresif Pasal 17 ayat (1) huruf a UU PPh atas PKP setahun dikurangi PPh yang telah dipotong Jan-Nov.",
+      "legalBasis": "Pasal 16 PMK No. 168 Tahun 2023",
+      "reviewCount": 2,
+      "resolved": false,
+      "category": "Penghitungan Tarif/TER"
+    },
+    {
+      "id": "mstk-2",
+      "timestamp": "2026-10-02T12:18:26.288Z",
+      "topic": "PPN & Faktur Pajak",
+      "concept": "Pengkreditan Faktur Pajak Cacat",
+      "mistakeDescription": "Menganggap faktur pajak tanpa NPWP pembeli tetap dapat dikreditkan selama barang fisik ada.",
+      "userGivenAnswer": "Pajak Masukan tetap dapat dikreditkan karena barang fisik diterima di gudang.",
+      "correctExplanation": "Secara formil Pasal 9 ayat (8) huruf f UU PPN menegaskan Faktur Pajak yang tidak memuat keterangan lengkap tidak dapat dikreditkan.",
+      "legalBasis": "Pasal 9 ayat (8) & Pasal 13 ayat (5) UU PPN",
+      "reviewCount": 1,
+      "resolved": false,
+      "category": "Faktur Pajak"
+    }
+  ],
+  "spacedRepetition": [
+    {
+      "id": "sr-1",
+      "topicId": "pph21-ter",
+      "conceptTitle": "Kategori TER A, B, C berdasarkan Status PTKP",
+      "taxLawReference": "PMK No. 168 Tahun 2023 Lampiran A",
+      "coreQuestion": "Sebutkan status PTKP apa saja yang masuk ke dalam Kategori TER A dan Kategori TER B!",
+      "idealAnswer": "Kategori A: TK/0, TK/1, K/0. Kategori B: TK/2, TK/3, K/1, K/2. (Kategori C khusus K/3).",
+      "status": "Sedang dipelajari",
+      "easeFactor": 2.5,
+      "intervalDays": 1,
+      "nextReviewDate": "2026-10-02",
+      "reviewCount": 1,
+      "lastScore": 80
+    },
+    {
+      "id": "sr-2",
+      "topicId": "umkm-pp55",
+      "conceptTitle": "Fasilitas Omzet Bebas Pajak Rp 500 Juta WPOP",
+      "taxLawReference": "Pasal 7 ayat (2a) UU HPP jo. PP 55/2022",
+      "coreQuestion": "Apakah Wajib Pajak Badan (PT / CV) berhak atas fasilitas omzet Rp 500 juta tidak kena pajak di skema PPh Final UMKM 0,5%?",
+      "idealAnswer": "TIDAK. Fasilitas bagian omzet s.d. Rp 500.000.000 tidak dikenai pajak HANYA berlaku bagi Wajib Pajak Orang Pribadi, bukan untuk Badan.",
+      "status": "Perlu diulang",
+      "easeFactor": 2.1,
+      "intervalDays": 1,
+      "nextReviewDate": "2026-10-02",
+      "reviewCount": 2,
+      "lastScore": 50
+    },
+    {
+      "id": "sr-3",
+      "topicId": "kup-keberatan",
+      "conceptTitle": "Batas Waktu Pengajuan Keberatan Pajak",
+      "taxLawReference": "Pasal 25 ayat (3) UU KUP stddt UU HPP",
+      "coreQuestion": "Berapa batas waktu pengajuan surat keberatan atas SKP dan sejak kapan jangka waktu tersebut dihitung?",
+      "idealAnswer": "Dalam jangka waktu 3 (tiga) bulan sejak tanggal DIKIRIMNYA surat ketetapan pajak (bukan tanggal diterima), kecuali jika Wajib Pajak dapat menunjukkan keadaan di luar kekuasaannya (force majeure).",
+      "status": "Hampir dikuasai",
+      "easeFactor": 2.6,
+      "intervalDays": 4,
+      "nextReviewDate": "2026-10-04",
+      "reviewCount": 3,
+      "lastScore": 90
+    },
+    {
+      "id": "sr-4",
+      "topicId": "ppn-kredit-pm",
+      "conceptTitle": "Pajak Masukan yang Tidak Dapat Dikreditkan",
+      "taxLawReference": "Pasal 9 ayat (8) UU PPN stddt UU HPP",
+      "coreQuestion": "Sebutkan minimal 2 kondisi di mana Pajak Masukan tidak dapat dikreditkan oleh PKP!",
+      "idealAnswer": "1. Perolehan BKP/JKP sebelum pengusaha dikukuhkan sebagai PKP (dengan ketentuan tertentu). 2. Perolehan yang tidak mempunyai hubungan langsung dengan kegiatan usaha (3M). 3. Pemanfaatan Faktur Pajak cacat formal yang tidak memuat keterangan lengkap. 4. Perolehan dan pemeliharaan kendaraan bermotor sedan dan station wagon kecuali barang dagangan atau disewakan.",
+      "status": "Sedang dipelajari",
+      "easeFactor": 2.3,
+      "intervalDays": 2,
+      "nextReviewDate": "2026-10-02",
+      "reviewCount": 1,
+      "lastScore": 75
+    },
+    {
+      "id": "sr-5",
+      "topicId": "pph-natura",
+      "conceptTitle": "Prinsip Perpajakan Natura Pasca UU HPP & PP 55/2022",
+      "taxLawReference": "Pasal 4 ayat (1) huruf a UU PPh jo. PMK-66/2023",
+      "coreQuestion": "Bagaimanakah perubahan paradigma perpajakan atas imbalan berupa natura atau kenikmatan dari aturan lama ke aturan baru?",
+      "idealAnswer": "Aturan lama: Non-taxable bagi penerima dan non-deductible bagi pemberi kerja. Aturan baru (UU HPP & PP 55/2022): Menjadi OBJEK PAJAK (taxable) bagi penerima dan DAPAT DIBEBANKAN (deductible) bagi pemberi kerja sepanjang berhubungan dengan 3M, dengan pengecualian natura tertentu (makanan/minuman bagi seluruh pegawai, natura di daerah tertentu, keharusan pekerjaan).",
+      "status": "Belum dipelajari",
+      "easeFactor": 2.5,
+      "intervalDays": 1,
+      "nextReviewDate": "2026-10-02",
+      "reviewCount": 0,
+      "lastScore": 0
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-pph21-ter-01",
+      "title": "Kasus Pemotongan PPh 21 Karyawan Tetap & Resign Tengah Tahun (PT Mahardika)",
+      "difficulty": "Intermediate",
+      "topic": "PPh Pasal 21 Pegawai Tetap & Skema TER",
+      "taxType": "PPh 21",
+      "parties": "PT Mahardika Solusindo (Pemberi Kerja / PKP) dan Tuan Bagas (Pegawai Tetap, NPWP Terdaftar, Status TK/1).",
+      "chronology": "Tuan Bagas bekerja sebagai Senior UI/UX Designer di PT Mahardika sejak Januari 2024. Gaji pokok dan tunjangan tetap per bulan sebesar Rp 14.000.000. Setiap bulan perusahaan memotong iuran pensiun yang disetor ke Dana Pensiun berizin OJK sebesar Rp 200.000. Pada bulan Agustus 2026, Tuan Bagas mengajukan pengunduran diri (resign) efektif per 31 Agustus 2026.",
+      "transactions": [
+        {
+          "desc": "Pembayaran Gaji dan Tunjangan Tetap Jan s.d. Jul 2026",
+          "amount": 14000000,
+          "date": "Setiap tanggal 25",
+          "doc": "Slip Gaji & Bukti Transfer Bank"
+        },
+        {
+          "desc": "Pembayaran Gaji Terakhir Bulan Agustus 2026",
+          "amount": 14000000,
+          "date": "25 Agustus 2026",
+          "doc": "Surat Keputusan Pemberhentian Kerja & Slip Gaji"
+        }
+      ],
+      "specialConditions": "Pegawai berstatus PTKP TK/1 (Kategori TER A). Berhenti bekerja pada bulan Agustus (masa pajak terakhir bagi yang bersangkutan).",
+      "relevantFacts": [
+        "Gaji dan tunjangan kotor per bulan Rp 14.000.000",
+        "Status PTKP TK/1 (TER Kategori A)",
+        "Iuran pensiun dibayar pegawai Rp 200.000/bulan",
+        "Masa kerja tahun 2026 hanya berlangsung 8 bulan (Januari - Agustus)",
+        "Bulan Agustus 2026 merupakan Masa Pajak Terakhir bagi Tuan Bagas"
+      ],
+      "irrelevantFacts": [
+        "Tuan Bagas berencana melanjutkan kuliah S2 di Australia bulan Oktober 2026",
+        "PT Mahardika bergerak di bidang konsultasi perangkat lunak sejak tahun 2018"
+      ],
+      "potentialRisks": [
+        "Kesalahan menggunakan TER pada bulan Agustus (seharusnya menggunakan Pasal 17 setahunkan/masa kerja)",
+        "Potensi lebih potong pajak yang wajib dikembalikan oleh perusahaan ke pegawai"
+      ],
+      "analysisQuestions": [
+        "Berapakah PPh 21 yang dipotong setiap bulan untuk masa Januari s.d Juli 2026 menggunakan skema TER PMK-168/2023?",
+        "Bagaimanakah mekanisme penghitungan PPh 21 pada bulan Agustus 2026 sebagai masa pajak terakhir bagi Tuan Bagas?",
+        "Apakah terjadi kurang potong atau lebih potong pada bulan Agustus 2026? Apa kewajiban PT Mahardika atas selisih tersebut?"
+      ],
+      "rubric": {
+        "issueWeight": 20,
+        "ruleWeight": 25,
+        "applicationWeight": 30,
+        "calculationWeight": 15,
+        "conclusionWeight": 10
+      },
+      "legalBasis": [
+        {
+          "regulation": "PMK No. 168 Tahun 2023",
+          "article": "Pasal 5, Pasal 16, & Lampiran Huruf A",
+          "status": "BERLAKU",
+          "source": "JDIH Kemenkeu"
+        },
+        {
+          "regulation": "UU PPh stddt UU HPP No. 7 Tahun 2021",
+          "article": "Pasal 17 ayat (1) huruf a & Pasal 21",
+          "status": "BERLAKU",
+          "source": "JDIH Kemenkeu"
+        }
+      ],
+      "keySolution": "Jan-Jul (7 bulan): Bruto Rp 14.000.000 masuk TER A baris 14 (13.75jt - 15.10jt) tarif 5%. PPh 21/bulan = Rp 700.000 x 7 = Rp 4.900.000. Pada bulan Agustus (Masa Terakhir): Bruto 8 bulan = 8 x 14jt = 112jt. Biaya jabatan 5% x 112jt = 5.6jt (maksimal 500rb x 8 = 4jt). Iuran pensiun = 8 x 200rb = 1.6jt. Netto 8 bulan = 112jt - 4jt - 1.6jt = 106.4jt. PTKP TK/1 = 58.5jt. PKP = 106.4jt - 58.5jt = 47.9jt. PPh terutang Pasal 17 = 5% x 47.9jt = Rp 2.395.000. Telah dipotong Jan-Jul = Rp 4.900.000. Terjadi LEBIH POTONG sebesar Rp 2.505.000 pada Agustus. Perusahaan wajib mengembalikan uang kelebihan potong ini kepada Tuan Bagas pada slip gaji Agustus!",
+      "commonPitfalls": [
+        "Mahasiswa menghitung bulan Agustus tetap dengan TER bulanan 5%",
+        "Mahasiswa lupa bahwa pada pegawai resign di tengah tahun, biaya jabatan maksimal dibatasi Rp 500.000 dikalikan jumlah bulan bekerja (8 x 500.000 = 4.000.000, bukan 6.000.000 setahun penuh)",
+        "Tidak menyadari timbulnya kelebihan potong"
+      ],
+      "followUpCase": "Bagaimana penghitungan jika Tuan Bagas pindah kerja ke perusahaan lain pada bulan Oktober 2026 dengan membawa Bukti Potong 1721-A1 dari PT Mahardika?"
+    },
+    {
+      "id": "case-ppn-faktur-cacat-02",
+      "title": "Sengketa Pengkreditan Pajak Masukan & Pemeriksaan Faktur Pajak (PT Garuda Mandiri)",
+      "difficulty": "Advanced",
+      "topic": "PPN, Faktur Pajak Formal vs Material, Pemeriksaan KUP",
+      "taxType": "PPN & KUP",
+      "parties": "PT Garuda Mandiri (Wajib Pajak / PKP Manufaktur) dan KPP Pratama Jakarta Kebayoran Baru (Pemeriksa Pajak).",
+      "chronology": "Pada tahun 2025, PT Garuda Mandiri diperiksa oleh tim pemeriksa KPP Pratama atas SPT Masa PPN periode Januari - Desember 2024. Tim pemeriksa mengoreksi Pajak Masukan sebesar Rp 450.000.000 yang berasal dari 12 lembar Faktur Pajak yang diterbitkan oleh supplier bahan baku PT Logam Jaya. Alasan koreksi fiskus: Faktur Pajak tersebut mencantumkan alamat cabang pembeli yang belum terdaftar sebagai tempat pemusatan PPN, serta tanggal Faktur Pajak mendahului tanggal Surat Jalan pengiriman barang.",
+      "transactions": [
+        {
+          "desc": "Pembelian Plat Baja dari PT Logam Jaya (12 Transaksi)",
+          "amount": 4090909090,
+          "date": "Januari - Desember 2024",
+          "doc": "Faktur Pajak Elektronik, Invoice, Rekening Koran Bank, Dokumen Timbangan Truk"
+        }
+      ],
+      "specialConditions": "Barang fisik telah terbukti benar-benar diterima di pabrik, digunakan dalam proses produksi, dan pembayaran lunas via rekening giro bank perusahaan (uji arus barang dan arus uang terbukti 100%).",
+      "relevantFacts": [
+        "Barang plat baja nyata-nyata diterima dan masuk kartu stok gudang (arus barang valid)",
+        "Pembayaran dilakukan via transfer bank resmi (arus uang valid)",
+        "Faktur Pajak terbit melalui sistem e-Faktur DJP dan status \"Approval Sukses\"",
+        "Terdapat perbedaan alamat administratif (cabang pabrik vs kantor pusat)",
+        "Pemeriksa menerbitkan SPHP dengan koreksi positif Pajak Masukan Rp 450.000.000 ditambah sanksi bunga Pasal 13 ayat (2) KUP"
+      ],
+      "irrelevantFacts": [
+        "PT Logam Jaya memenangkan tender penyedia baja konstruksi di IKN",
+        "Direktur PT Garuda Mandiri sedang mencalonkan diri sebagai pengurus asosiasi pengusaha"
+      ],
+      "potentialRisks": [
+        "Penerbitan SKPKB PPN senilai Rp 450.000.000 ditambah sanksi administrasi bunga KUP",
+        "Koreksi PPh Badan karena biaya pembelian bahan baku berpotensi diragukan keabsahannya"
+      ],
+      "analysisQuestions": [
+        "Apakah koreksi fiskus atas dasar cacat formal alamat cabang dapat dibenarkan jika arus uang dan arus barang terbukti valid secara material?",
+        "Bagaimana penerapan doktrin \"Substance Over Form\" dan Putusan Mahkamah Agung terkait pengkreditan Faktur Pajak cacat formal?",
+        "Susunlah draft argumentasi hukum pembelaan dalam Risalah Pembahasan Akhir Hasil Pemeriksaan (Closing Conference)!"
+      ],
+      "rubric": {
+        "issueWeight": 20,
+        "ruleWeight": 25,
+        "applicationWeight": 30,
+        "calculationWeight": 15,
+        "conclusionWeight": 10
+      },
+      "legalBasis": [
+        {
+          "regulation": "UU PPN stddt UU HPP No. 7 Tahun 2021",
+          "article": "Pasal 9 ayat (2b), Pasal 9 ayat (8), & Pasal 13 ayat (5)",
+          "status": "BERLAKU",
+          "source": "JDIH Kemenkeu"
+        },
+        {
+          "regulation": "PER-03/PJ/2022 stddt PER-11/PJ/2022",
+          "article": "Pasal 6, Pasal 33, & Pasal 37",
+          "status": "BERLAKU",
+          "source": "JDIH DJP"
+        },
+        {
+          "regulation": "Yurisprudensi Putusan Mahkamah Agung",
+          "article": "Putusan MA No. 138/B/PK/PJK/2018",
+          "status": "YURISPRUDENSI",
+          "source": "Kepaniteraan MA RI"
+        }
+      ],
+      "keySolution": "Pajak Masukan tidak dapat dikoreksi semata-mata karena kekeliruan pencantuman alamat sepanjang identitas NPWP penjual dan pembeli benar, barcode valid terdaftar di sistem DJP, serta arus uang dan arus barang telah terbukti secara materiil (Pasal 9 ayat 2b UU PPN stddt UU HPP dan PER-03/PJ/2022 jo. PER-11/PJ/2022). Wajib Pajak harus mengajukan bukti pendukung rekonsiliasi arus uang (rekening koran), arus dokumen (kontrak, PO, invoice), dan arus barang (delivery order, laporan persediaan) untuk membatalkan temuan pemeriksa.",
+      "commonPitfalls": [
+        "Menyerah begitu saja pada dalil pemeriksa tanpa memeriksa uji materialitas",
+        "Tidak mampu menghubungkan ketentuan PER-03/PJ/2022 dengan relaksasi identitas pembeli",
+        "Gagal menyusun pembuktian 3 arus (Arus Uang, Arus Barang, Arus Dokumen)"
+      ],
+      "followUpCase": "Bagaimana jika PT Logam Jaya ternyata adalah penerbit Faktur Pajak fiktif (TBTS - Tidak Berdasarkan Transaksi Sebenarnya)? Apa sanksi pidana dan perlakuan hukumnya?"
+    }
+  ],
+  "regulations": [
+    {
+      "id": "reg-pmk-168-2023",
+      "name": "Petunjuk Pemotongan Pajak atas Penghasilan Sehubungan dengan Pekerjaan, Jasa, atau Kegiatan Orang Pribadi (TER PPh 21)",
+      "number": "PMK No. 168 Tahun 2023",
+      "year": 2023,
+      "topic": "Tarif Efektif Rata-Rata (TER) PPh Pasal 21",
+      "taxType": "PPh",
+      "activeStatus": "BERLAKU",
+      "summary": "Mengatur skema penyederhanaan penghitungan PPh Pasal 21 bulanan bagi pegawai tetap menggunakan Tarif Efektif Bulanan Kategori A, B, C untuk masa selain masa terakhir, serta penghitungan kembali pada masa pajak terakhir menggunakan tarif progresif Pasal 17 ayat (1) huruf a UU PPh.",
+      "keyArticles": [
+        {
+          "article": "Pasal 2 ayat (2)",
+          "content": "Pemotong PPh 21 terdiri atas pemberi kerja, bendahara pemerintah, dana pensiun, badan, dan penyelenggara kegiatan."
+        },
+        {
+          "article": "Pasal 5",
+          "content": "Penghitungan PPh 21 Pegawai Tetap masa selain masa terakhir = Penghasilan Bruto x Tarif Efektif Bulanan (Kategori A, B, atau C)."
+        },
+        {
+          "article": "Pasal 16",
+          "content": "Penghitungan PPh 21 masa pajak terakhir dihitung menggunakan tarif Pasal 17 ayat (1) huruf a UU PPh atas PKP setahun dikurangi jumlah PPh 21 yang telah dipotong."
+        }
+      ],
+      "source": "JDIH Kementerian Keuangan RI",
+      "sourceUrl": "https://jdih.kemenkeu.go.id/download/12fb1a3c-b17b-4ef9-bb6e-213faee3683a/168~PMK.03~2023Per.pdf",
+      "lastCheckedDate": "2026-09-15",
+      "officialVerification": true
+    },
+    {
+      "id": "reg-uu-hpp-7-2021",
+      "name": "Undang-Undang tentang Harmonisasi Peraturan Perpajakan (UU HPP)",
+      "number": "Undang-Undang No. 7 Tahun 2021",
+      "year": 2021,
+      "topic": "Reformasi Komprehensif KUP, PPh, PPN, dan Pajak Karbon",
+      "taxType": "PPh",
+      "activeStatus": "BERLAKU",
+      "summary": "Mereformasi struktur lapisan tarif PPh Orang Pribadi (lapisan 5% dinaikkan s.d 60 juta, penambahan tarif 35% di atas 5 miliar), tarif PPN menjadi 11% (mulai 1 April 2022) dan 12% (paling lambat 1 Januari 2025), batasan omzet UMKM Rp 500 juta tidak kena pajak bagi WPOP, serta integrasi NIK menjadi NPWP.",
+      "keyArticles": [
+        {
+          "article": "Pasal 2 UU KUP stddt UU HPP",
+          "content": "Penggunaan Nomor Induk Kependudukan (NIK) sebagai Nomor Pokok Wajib Pajak (NPWP) bagi Wajib Pajak Orang Pribadi penduduk Indonesia."
+        },
+        {
+          "article": "Pasal 17 ayat (1) huruf a UU PPh stddt UU HPP",
+          "content": "Tarif progresif PPh OP: 0-60 jt (5%), 60-250 jt (15%), 250-500 jt (25%), 500 jt - 5 M (30%), > 5 M (35%)."
+        },
+        {
+          "article": "Pasal 7 ayat (1) UU PPN stddt UU HPP",
+          "content": "Tarif PPN sebesar 11% mulai 1 April 2022 dan 12% paling lambat 1 Januari 2025."
+        },
+        {
+          "article": "Pasal 7 ayat (2a) UU PPh stddt UU HPP",
+          "content": "Wajib Pajak Orang Pribadi dengan peredaran bruto tertentu tidak dikenai PPh atas bagian peredaran bruto sampai dengan Rp 500.000.000 dalam 1 tahun pajak."
+        }
+      ],
+      "source": "JDIH Kementerian Keuangan & Lembaran Negara RI No. 246 Tahun 2021",
+      "sourceUrl": "https://jdih.kemenkeu.go.id/fulltext/2021/7TAHUN2021UU.pdf",
+      "lastCheckedDate": "2026-09-18",
+      "officialVerification": true
+    },
+    {
+      "id": "reg-pp-55-2022",
+      "name": "Peraturan Pemerintah tentang Penyesuaian Pengaturan di Bidang Pajak Penghasilan",
+      "number": "Peraturan Pemerintah No. 55 Tahun 2022",
+      "year": 2022,
+      "topic": "Penyesuaian Ketentuan PPh, Natura, dan Batasan UMKM",
+      "taxType": "PPh",
+      "activeStatus": "BERLAKU",
+      "summary": "Mengatur secara rinci perlakuan perpajakan atas kenikmatan dan imbalan berupa natura (menjadi objek pajak dan deductible expense bagi pemberi kerja dengan pengecualian tertentu), serta teknis pembebasan omzet UMKM s.d Rp 500 juta bagi Orang Pribadi.",
+      "keyArticles": [
+        {
+          "article": "Pasal 24",
+          "content": "Penggantian atau imbalan dalam bentuk natura dan/atau kenikmatan sehubungan dengan pekerjaan atau jasa dinilai berdasarkan nilai pasar atau nilai yang dikeluarkan pemberi kerja."
+        },
+        {
+          "article": "Pasal 56 & 60",
+          "content": "WPOP yang memiliki peredaran bruto tertentu dikenai PPh Final 0,5% hanya atas bagian peredaran bruto kumulatif yang melebihi Rp 500.000.000 dalam satu Tahun Pajak."
+        }
+      ],
+      "source": "JDIH Kementerian Keuangan RI",
+      "sourceUrl": "https://jdih.kemenkeu.go.id/fulltext/2022/55TAHUN2022PP.pdf",
+      "lastCheckedDate": "2026-09-12",
+      "officialVerification": true
+    },
+    {
+      "id": "reg-uu-kup-6-1983",
+      "name": "Ketentuan Umum dan Tata Cara Perpajakan",
+      "number": "UU No. 6 Tahun 1983 stddt UU No. 7 Tahun 2021",
+      "year": 2021,
+      "topic": "Hak dan Kewajiban Wajib Pajak, Pemeriksaan, Keberatan, dan Sanksi",
+      "taxType": "KUP",
+      "activeStatus": "BERLAKU",
+      "summary": "Hukum formal perpajakan Indonesia yang mengatur pendaftaran NPWP, SPT, pembayaran, penetapan SKP, tata cara pemeriksaan pajak, surat paksa, permohonan keberatan (Pasal 25), banding ke Pengadilan Pajak (Pasal 27), dan sanksi bunga berbasis suku bunga acuan ditambah uplift margin.",
+      "keyArticles": [
+        {
+          "article": "Pasal 13 ayat (1)",
+          "content": "Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Kurang Bayar (SKPKB) dalam jangka waktu 5 tahun setelah saat terutangnya pajak atau berakhirnya Masa/Tahun Pajak."
+        },
+        {
+          "article": "Pasal 25 ayat (1)",
+          "content": "Wajib Pajak dapat mengajukan keberatan kepada Direktur Jenderal Pajak atas suatu SKPKB, SKPKBT, SKPLB, SKPN, atau pemotongan/pemungutan pihak ketiga dalam jangka waktu 3 bulan sejak tanggal dikirimnya surat ketetapan."
+        },
+        {
+          "article": "Pasal 27 ayat (1)",
+          "content": "Wajib Pajak dapat mengajukan permohonan banding hanya kepada Pengadilan Pajak atas Surat Keputusan Keberatan dalam jangka waktu 3 bulan sejak tanggal diterima Surat Keputusan Keberatan."
+        }
+      ],
+      "source": "JDIH Kemenkeu RI",
+      "sourceUrl": "https://jdih.kemenkeu.go.id",
+      "lastCheckedDate": "2026-09-10",
+      "officialVerification": true
+    },
+    {
+      "id": "reg-uu-ppn-8-1983",
+      "name": "Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah",
+      "number": "UU No. 8 Tahun 1983 stddt UU No. 7 Tahun 2021",
+      "year": 2021,
+      "topic": "Pengenaan PPN, BKP, JKP, Pengkreditan Pajak Masukan, dan Faktur Pajak",
+      "taxType": "PPN",
+      "activeStatus": "BERLAKU",
+      "summary": "Pajak atas konsumsi Barang Kena Pajak (BKP) dan Jasa Kena Pajak (JKP) di dalam Daerah Pabean yang menganut sistem indirect tax dan invoice credit method.",
+      "keyArticles": [
+        {
+          "article": "Pasal 4 ayat (1)",
+          "content": "PPN dikenakan atas penyerahan BKP di dalam Daerah Pabean yang dilakukan oleh Pengusaha, impor BKP, penyerahan JKP, pemanfaatan BKP Tidak Berwujud/JKP dari luar Daerah Pabean, dan ekspor BKP/JKP oleh PKP."
+        },
+        {
+          "article": "Pasal 9 ayat (2) & (8)",
+          "content": "Pajak Masukan dalam suatu Masa Pajak dikreditkan dengan Pajak Keluaran untuk Masa Pajak yang sama. Pajak Masukan yang tidak memenuhi ketentuan faktur atau tidak ada hubungan langsung dengan kegiatan usaha tidak dapat dikreditkan."
+        },
+        {
+          "article": "Pasal 13",
+          "content": "PKP wajib membuat Faktur Pajak untuk setiap penyerahan BKP/JKP pada saat penyerahan atau saat penerimaan pembayaran."
+        }
+      ],
+      "source": "JDIH Kemenkeu RI",
+      "sourceUrl": "https://jdih.kemenkeu.go.id",
+      "lastCheckedDate": "2026-09-20",
+      "officialVerification": true
+    },
+    {
+      "id": "reg-uu-hkpd-1-2022",
+      "name": "Hubungan Keuangan Antara Pemerintah Pusat dan Pemerintahan Daerah",
+      "number": "UU No. 1 Tahun 2022",
+      "year": 2022,
+      "topic": "Pajak Daerah dan Retribusi Daerah (PDRD)",
+      "taxType": "Pajak Daerah",
+      "activeStatus": "BERLAKU",
+      "summary": "Menyederhanakan jenis pajak daerah, mengatur PBJT (Pajak Barang dan Jasa Tertentu yang menggabungkan Pajak Hotel, Restoran, Hiburan, Parkir, dan Penerangan Jalan), PBB-P2, BPHTB, serta opsen PKB dan BBNKB.",
+      "keyArticles": [
+        {
+          "article": "Pasal 4 ayat (1)",
+          "content": "Jenis Pajak Daerah Kabupaten/Kota meliputi PBB-P2, BPHTB, PBJT, Pajak Reklame, PAT, MBLB, Pajak Sarang Burung Walet, Opsen PKB, Opsen BBNKB."
+        },
+        {
+          "article": "Pasal 58",
+          "content": "Tarif PBJT ditetapkan paling tinggi sebesar 10%, kecuali jasa hiburan diskotik, karaoke, kelab malam, bar, dan spa ditetapkan paling rendah 40% dan paling tinggi 75%."
+        }
+      ],
+      "source": "JDIH Kemenkeu & Kemendagri RI",
+      "sourceUrl": "https://jdih.kemenkeu.go.id",
+      "lastCheckedDate": "2026-09-14",
+      "officialVerification": true
+    }
+  ],
+  "caseSubmissions": [],
+  "bookmarks": [],
+  "weeklyActivity": [
+    {
+      "date": "Senin",
+      "minutes": 25,
+      "xp": 120,
+      "cases": 1
+    },
+    {
+      "date": "Selasa",
+      "minutes": 35,
+      "xp": 210,
+      "cases": 2
+    },
+    {
+      "date": "Rabu",
+      "minutes": 40,
+      "xp": 250,
+      "cases": 2
+    },
+    {
+      "date": "Kamis",
+      "minutes": 30,
+      "xp": 180,
+      "cases": 1
+    },
+    {
+      "date": "Jumat",
+      "minutes": 45,
+      "xp": 300,
+      "cases": 3
+    },
+    {
+      "date": "Sabtu",
+      "minutes": 50,
+      "xp": 350,
+      "cases": 3
+    },
+    {
+      "date": "Minggu",
+      "minutes": 30,
+      "xp": 200,
+      "cases": 1
+    }
+  ],
+  "diagnosticResult": {
+    "completedAt": "2026-10-02T12:18:39.264Z",
+    "totalQuestions": 20,
+    "correctAnswers": 5,
+    "scorePercent": 25,
+    "determinedStartingLevel": 1,
+    "strengths": [
+      "Definisi (100%)"
+    ],
+    "weaknesses": [
+      "Konsep (25%)",
+      "Analisis Regulasi (29%)",
+      "Perhitungan (25%)",
+      "Case Study (0%)",
+      "Sengketa (0%)"
+    ],
+    "recommendedTraining": [
+      "Latihan Terfokus: Konsep (25%)",
+      "Penerapan Kasus IRAC Bertahap",
+      "Bedah Regulasi 7 Dimensi"
+    ],
+    "dailyStudyPlan": {
+      "Senin": "PPh + Active Recall (Penguatan Konsep & Tarif)",
+      "Selasa": "PPN + Rule Dissection (Faktur & Pengkreditan PM)",
+      "Rabu": "Case Analysis & IRAC Problem Solving",
+      "Kamis": "KUP & Prosedur Pembayaran / Pelaporan",
+      "Jumat": "Tax Calculation Engine (TER, PPh 23, PPN)",
+      "Sabtu": "Tax Dispute & Dialektika Argumen Sengketa",
+      "Minggu": "Rapid Review Mingguan & Mistake Bank Cleansing"
+    }
+  }
+}

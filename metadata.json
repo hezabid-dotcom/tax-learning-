@@ -1,0 +1,6 @@
+{
+  "name": "Tax Mastery Lab",
+  "description": "Tax Reasoning Training System full-stack untuk mahasiswa D3 Perpajakan: IRAC, legal reasoning, pembacaan regulasi, kalkulasi pajak, simulasi sengketa, dan AI Tutor Socratic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
